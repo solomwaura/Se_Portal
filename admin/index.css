@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main:rgb(20, 103, 20);
+    --primary:white;
+    --secondary:rgb(241, 214, 15);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: var(--main);
+}
+.logo h3{
+    color: white;
+}
+.account h5{
+    color: white;
+}
+.admin-content{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+
+}
+.side-bar{
+    background-color: whitesmoke;
+    padding: 20px 10px;
+    margin: 5px;
+}
+.side a{
+    padding: 10px 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.side {
+    position: relative;
+    display: inline-block;
+    padding: 10px 5px;
+    margin: 10px;
+    border-bottom: 1px solid var(--main);
+}
+.dropdown-button {
+padding: 10px 30px 10px 20px;
+color: rgb(26, 105, 26);
+font-size: 18px;
+
+}
+.dropdown-button h3{
+color: rgb(21, 109, 21);
+}
+.actions ul li{
+    list-style: none;
+}
+
+ 
+  
+.content{
+    padding: 20px 10px;
+    margin: 5px;
+}
+.content h3{
+    padding: 5px;
+    margin: 0 0 0 20px;
+    font-weight: 500;
+}
+
+.widgets{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0 0 30px 0;
+}
+.widget{
+    padding: 20px;
+    border: 1px solid var(--secondary);
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.widget h5,p{
+    padding: 5px;
+}
+.courses{
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.stu-form{
+    padding: 10px;
+    margin: 0 auto;
+}
+.stu-form h3{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 5px 0;
+    color: rgb(29, 143, 29);
+}
+
+fieldset{
+    padding: 15px;
+    border: 1px solid greenyellow;
+    margin: 10px auto;
+}
+
+legend{
+    color: rgb(31, 111, 31);
+}
+
+input{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    width: 90%;
+}
+
+select{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid greenyellow;
+}
+
+.reg-submit{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+}

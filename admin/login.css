@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --main:rgb(20, 103, 20);
+    --primary:white;
+    --secondary:rgb(241, 214, 15);
+}
+.login-form{
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid var(--main);
+    border-radius: 5px;
+}
+.login-form h3{
+    text-align: center;
+    padding: 5px;
+    margin: 0 0 15px 0;
+}
+
+.form-group{
+    padding: 10px;
+}
+label{
+    padding: 5px;
+    display: block;
+    margin: 3px;
+}
+input{
+    padding: 5px;
+    border: 1px solid var(--secondary);
+    width: 100%;
+    border-radius: 5px;
+}
+#login{
+    background-color: var(--main);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin: 10px auto;
+}

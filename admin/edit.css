@@ -1,0 +1,47 @@
+label{
+    display: block;
+    padding: 5px;
+    margin: 3px;
+}
+
+.editting{
+    background-color: rgb(53, 180, 53);
+    width: 92%;
+}
+input{
+    border: 1px solid rgb(78, 119, 78);
+    margin: 2px;
+}
+
+input[type='submit']{
+    background-color: green;
+    border: none;
+    padding: 10px 15px;
+}
+
+table {
+    padding: 20px 15px;
+    background-color: rgb(166, 164, 164);
+    margin: 0 auto;
+
+}
+
+.edit {
+    background-color: green;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+table tr{
+    padding: 5px;
+}
+
+table tr td{
+    padding: 5px 10px;
+    border-bottom: 1px solid rgb(90, 187, 90);
+}
+table tr th{
+    padding: 5px 15px;
+    border-bottom: 1px solid rgb(90, 187, 90);
+}
